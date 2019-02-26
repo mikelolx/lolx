@@ -7,7 +7,7 @@ var prefix = "!"
 //bc
 
 client.on("message", message => {
-    if (message.content.startsWith("!obc")) {
+    if (message.content.startsWith("!bc")) {
                  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
   let args = message.content.split(" ").slice(1);
   var argresult = args.join(' ');
@@ -23,7 +23,7 @@ client.on("message", message => {
 //bc online
 
 
-  var prefix = "b!";
+  var prefix = "!";
 
   client.on("message", message => {
   
