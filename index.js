@@ -24,7 +24,7 @@ client.on("message", message => {
 //bc online
 
 
-  var prefix = "!";
+ 
 
   client.on("message", message => {
   
